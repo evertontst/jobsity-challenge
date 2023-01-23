@@ -28,7 +28,6 @@ export default {
   },
   computed: {
     formattedTime() {
-      // return `${ _.padStart(this.event.hour, 2, '0') }:${ _.padStart(this.event.minute, 2, '0') }`;
       return `${this.event.hour.toString().padStart(2, '0')}:${this.event.minute.toString().padStart(2, '0')}`;
     },
     textColor() {
