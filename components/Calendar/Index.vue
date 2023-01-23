@@ -16,6 +16,7 @@ import dayjs from "dayjs";
 
 export default {
   name: "CalendarIndex",
+
   components: {
     Header: () => import('~/components/Calendar/Header'),
     Grid: () => import('~/components/Calendar/Grid'),
